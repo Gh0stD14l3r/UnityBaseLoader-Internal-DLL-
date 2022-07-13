@@ -12,12 +12,12 @@ namespace BaseLoader
         public static float Timer = 0f;
 
 
-        public void start()
+        public void Start()
         {
             
         }
 
-        public void update()
+        public void Update()
         {
             if (Input.GetKeyDown(KeyCode.End)) // Kill hacks on "End" key pressed
             {
